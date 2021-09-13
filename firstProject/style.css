@@ -84,7 +84,7 @@ body{
 }
 
 .bold{
-    color: var(--dark-grayish-blue);
+    color: var(--very-dark-desaturated-blue);
     font-weight: 700;
     font-size: 18px;
 }

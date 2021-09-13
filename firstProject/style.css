@@ -10,6 +10,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -43,7 +44,7 @@ body{
     width: 352px;
     border-radius: 14px;
     text-align: center;
-    box-shadow: 8px 12px 24px black;
+    box-shadow: 0px 15px 30px 0px rgba(0,0,0,0.4);
 }
 
 #timelinePhoto{
@@ -68,9 +69,8 @@ body{
 #profileActivity{
     display: flex;
     justify-content: space-around;
-    border-top: 0.1px solid var(--dark-gray);
+    border-top: 1px solid #E5E5E5;
     align-content: center;
-    margin-top: -12px;
 }
 
 #profileActivity div{

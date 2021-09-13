@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --dark-cyan:hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue:hsl(229, 23%, 23%);
+    --dark-grayish-blue:hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--dark-cyan);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.topPattern{
+    position: fixed;
+    transform: translate(-15%, -50%);
+}
+
+.bottomPattern{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transform: translate(10%, 55%);
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileCard{
+    position: absolute;
+    background-color: white;
+    height: 376px;
+    width: 352px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 8px 12px 24px black;
+}
+
+#timelinePhoto{
+    width: 352px;
+    height: 140px;
+    border-radius: 14px 14px 0px 0px;
+}
+
+#profilePicture{
+    width: 95px;
+    height: 95px;
+    border-radius: 50px;
+    border: 5px solid white;
+    margin-top: -50px;
+}
+
+#profileInformation{
+    text-align: center;
+    padding: 25px;
+}
+
+#profileActivity{
+    display: flex;
+    justify-content: space-around;
+    border-top: 0.1px solid var(--dark-gray);
+    align-content: center;
+    margin-top: -12px;
+}
+
+#profileActivity div{
+    padding: 25px;
+}
+
+.regular{
+    color: var(--dark-gray);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.bold{
+    color: var(--dark-grayish-blue);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 706px){
+    .topPattern{
+        transform: translate(-79%, -58%);
+    }
+
+    .bottomPattern{
+        transform: translate(75%, 63%);
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 707px){
+    .topPattern{
+        transform: translate(-30%, -55%);
+    }
+
+    .bottomPattern{
+        transform: translate(20%, 70%);
+    }
+}

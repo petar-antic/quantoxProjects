@@ -1,0 +1,23 @@
+{
+  "name": "firstproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass assets/scss/style.scss assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petar-antic/quantoxProjects.git"
+  },
+  "author": "petar_antic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petar-antic/quantoxProjects/issues"
+  },
+  "homepage": "https://github.com/petar-antic/quantoxProjects#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

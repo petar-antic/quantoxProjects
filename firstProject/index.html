@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profile Card</title>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png"/>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <img class="topPattern" src="images/bg-pattern-top.svg">
+    <img class="bottomPattern" src="images/bg-pattern-bottom.svg">
+    <section class="container">
+        <div class="profileCard">
+            <img id="timelinePhoto" src="images/bg-pattern-card.svg">
+            <img id="profilePicture" src="images/image-victor.jpg">
+            <div id="profileInformation">
+                <h4 class="bold">Victor Crest
+                    <span style="font-size: 18px; font-weight: 400; margin-left: 5px; color: var(--dark-gray);">26</span><br>
+                    <span class="regular">London</span>
+                </h4>
+            </div>
+            <div id="profileActivity">
+                <div>
+                    <h3 class="bold">80K<br><p class="regular">Followers</p></h3>             
+                </div>
+                <div>
+                    <h3 class="bold">803K<br><p class="regular">Likes</p></h3>
+                </div>
+                <div>
+                    <h3 class="bold">1.4K<br><p class="regular">Photos</p></h3>   
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

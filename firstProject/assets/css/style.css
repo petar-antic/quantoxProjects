@@ -13,10 +13,10 @@ body {
   transform: translate(-15%, -50%); }
   @media screen and (max-width: 706px) {
     .topPattern {
-      transform: translate(-79%, -58%); } }
+      transform: translate(-78%, -56%); } }
   @media only screen and (max-width: 1440px) and (min-width: 707px) {
     .topPattern {
-      transform: translate(-30%, -55%); } }
+      transform: translate(-30%, -46%); } }
 
 .bottomPattern {
   position: fixed;
@@ -25,10 +25,10 @@ body {
   transform: translate(10%, 55%); }
   @media screen and (max-width: 706px) {
     .bottomPattern {
-      transform: translate(75%, 63%); } }
+      transform: translate(79%, 55%); } }
   @media only screen and (max-width: 1440px) and (min-width: 707px) {
     .bottomPattern {
-      transform: translate(20%, 70%); } }
+      transform: translate(19%, 65%); } }
 
 section {
   min-height: 100vh;
@@ -42,32 +42,44 @@ section {
     width: 352px;
     border-radius: 14px;
     text-align: center;
-    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.4); }
-  section #timelinePhoto {
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.1); }
+    @media screen and (max-width: 400px) {
+      section .profileCard {
+        width: 88%; } }
+  section .timelinePhoto {
     width: 352px;
     height: 140px;
     border-radius: 14px 14px 0px 0px; }
-  section #profilePicture {
+    @media screen and (max-width: 400px) {
+      section .timelinePhoto {
+        width: 100%; } }
+  section .profilePicture {
     width: 95px;
     height: 95px;
     border-radius: 50px;
     border: 5px solid white;
     margin-top: -50px; }
-  section #profileInformation {
+  section .profileInformation {
     text-align: center;
-    padding: 25px; }
-    section #profileInformation h4 span {
-      font-size: 18px;
-      font-weight: 400;
-      margin-left: 5px;
-      color: #6a6f81; }
-  section #profileActivity {
+    padding: 15px 0px 31px 0px; }
+    section .profileInformation h4 {
+      padding-bottom: 5px; }
+      section .profileInformation h4 span {
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 5px;
+        color: #6a6f81; }
+    section .profileInformation span {
+      font-size: 14px; }
+  section .profileActivity {
     display: flex;
     justify-content: space-around;
     border-top: 1px solid #E5E5E5;
     align-content: center; }
-    section #profileActivity div {
+    section .profileActivity div {
       padding: 25px; }
+      section .profileActivity div p {
+        letter-spacing: 2px; }
   section .regular {
     color: #969696;
     font-weight: 400;

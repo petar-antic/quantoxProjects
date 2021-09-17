@@ -109,12 +109,12 @@ body {
 }
 .section .profileActivity div p {
   letter-spacing: 2px;
-  margin-top: 2px;
+  margin-top: 3px;
 }
 .section .regular {
   color: #969696;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 10px;
 }
 .section .bold {
   color: #2d3248;
